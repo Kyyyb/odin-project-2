@@ -5,24 +5,26 @@
 
 body {
     display: flex;
+    flex-direction: column;
 }
 
-a {
+a,
+.secondary {
     text-decoration: none;
-    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header {
-    padding: 16px;
+    min-height: 48px;
     flex: 1;
     display: flex;
     align-items: center;
-    background-color: #1F2937;
+    background: #1F2937;
 }
 
 .logo {
-    margin-left: 160px;
-    font-weight: 900;
+    margin-left: 300px;
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
@@ -31,5 +33,41 @@ a {
 .links {
     display: flex;
     gap: 24px;
-    margin-right: 160px;
+    margin-right: 300px;
+}
+
+.top {
+    min-height: 350px;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.top-container {
+    color: #F9FAF8;
+    height: 250px;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-image {
+    margin-right: 300px;
+}
+
+button {
+    margin-top: 8px;
+    width: 120px;
+    height: 30px;
+    background: #3882F6;
+    border-radius: 8px;
+    border: none;
 }
