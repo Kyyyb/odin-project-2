@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    margin-left: 160px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    margin-right: 160px;
+}
